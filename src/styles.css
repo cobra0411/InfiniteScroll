@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.scroll-item {
+  font-size: 18px;
+  padding: 10px;
+}
+.infinite-scroll {
+  max-height: 400px;
+  min-height: 400px;
+  width: 500px;
+  background-color: gray;
+  overflow-y: scroll;
+}
